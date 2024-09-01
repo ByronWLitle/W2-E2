@@ -24,7 +24,9 @@ namespace Exercise2
                 sum = sum + rem; //Number is now stored in sum
                 inputNum = inputNum / 10; //Goes to next number by dividing by 10
             }
+            //Outputs total of sum
             Console.WriteLine($"The sum of the digits is: {sum}");
+            //Pause program to allow user to view
             Console.ReadLine();
         }
     }
